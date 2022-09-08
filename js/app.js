@@ -677,7 +677,7 @@
         }
         if (targetElement.closest(".weapon__btn")) gsap.to(targetElement.closest(".weapon__btn"), {
             y: 20,
-            duration: .05,
+            duration: .1,
             boxShadow: "0px 0px 0px #004a04",
             yoyo: true,
             repeat: 1
