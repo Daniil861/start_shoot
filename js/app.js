@@ -634,6 +634,7 @@
             if (document.querySelector(".main") && document.querySelector(".preloader").classList.contains("_hide")) {
                 document.querySelector(".main__body").classList.add("_active");
                 writeStartWeapons();
+                writeStartSettings();
                 drawPrices();
                 chekBoughtWeapons();
                 checkCurrentWeapon();
